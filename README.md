@@ -7,7 +7,7 @@
 
 # Model Performance on Cross Validation Set
   Along with the proposed model architecture, three convolutional neural networks that are commonly used for computer vision tasks were constructed: VGG16, ResNet50, and InceptionV3. These models had their pretrained weights from training on the ImageNet database. The models were then trained on the training set using 33 epochs and a batch size of 10 to minimize their binary cross entropy loss on the training set. After the models were trained on the training set, they were evaluated on the cross validation set using four metrics: accuracy, sensitivity, specificity, AUC score, and F1 score.
-  
+  ![alt text](https://github.com/rishipython/ALL-Cell-Classification/blob/main/model_cross_validation_performance.png)
   As shown in the above table, the proposed model generally outperformed all of the other models, as it had the highest accuracy, the highest sensitivity, the second highest specificity, the second highest AUC score, and the highest F1 score.
   
 # Proposed Model Performance on Test Set
